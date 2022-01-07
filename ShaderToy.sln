@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{0CDDF5D3-9E66-48AF-8400-1399D9E57D30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShadersExamples", "ShadersExamples", "{59769F96-0651-4EA3-A5DD-786AF402506B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShaserFractal", "ShaserFractal\ShaserFractal.csproj", "{F21887FF-73E9-4445-A44A-288BB010B93A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveDonut", "RecursiveDonut\RecursiveDonut.csproj", "{ECEB4AF4-E0C1-4313-BC58-F9618E5E3D3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CDDF5D3-9E66-48AF-8400-1399D9E57D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CDDF5D3-9E66-48AF-8400-1399D9E57D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CDDF5D3-9E66-48AF-8400-1399D9E57D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CDDF5D3-9E66-48AF-8400-1399D9E57D30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F21887FF-73E9-4445-A44A-288BB010B93A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F21887FF-73E9-4445-A44A-288BB010B93A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F21887FF-73E9-4445-A44A-288BB010B93A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F21887FF-73E9-4445-A44A-288BB010B93A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECEB4AF4-E0C1-4313-BC58-F9618E5E3D3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECEB4AF4-E0C1-4313-BC58-F9618E5E3D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECEB4AF4-E0C1-4313-BC58-F9618E5E3D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECEB4AF4-E0C1-4313-BC58-F9618E5E3D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F21887FF-73E9-4445-A44A-288BB010B93A} = {59769F96-0651-4EA3-A5DD-786AF402506B}
+		{ECEB4AF4-E0C1-4313-BC58-F9618E5E3D3C} = {59769F96-0651-4EA3-A5DD-786AF402506B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AA6A4CA-F2C0-4FD2-A9E6-17D116D77500}
+	EndGlobalSection
+EndGlobal
