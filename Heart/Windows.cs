@@ -85,8 +85,7 @@ namespace ShaserFractal
             _shader.Use();
             _shader.SetVector3("iResolution", iResolution);
             _shader.SetFloat("iTime", Time);
-            _shader.SetVector4("iMouse", iMouse);
-            //_shader.SetFloat("iTimeDelta", (float)args.Time);
+            //_shader.SetVector4("iMouse", iMouse);
             GL.BindVertexArray(_vertexArrayObject);
             GL.DrawElements(PrimitiveType.Triangles, _index.Length, DrawElementsType.UnsignedInt, 0);
 
@@ -96,10 +95,6 @@ namespace ShaserFractal
         protected override void OnUpdateFrame(FrameEventArgs args)
         {
             base.OnUpdateFrame(args);
-
-            //var _mouseState = MouseState;
-            //if (_mouseState.IsButtonDown(MouseButton.Left)) CursorGrabbed = true;
-            //if (_mouseState.IsButtonDown(MouseButton.Right)) CursorGrabbed = false;
 
             if (Space) Time += (float)args.Time / 4.0f;
 

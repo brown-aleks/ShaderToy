@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShaserFractal", "ShaserFrac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveDonut", "RecursiveDonut\RecursiveDonut.csproj", "{ECEB4AF4-E0C1-4313-BC58-F9618E5E3D3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heart", "Heart\Heart.csproj", "{394062FF-7FF7-42D1-ADF5-0C61FF694AA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{ECEB4AF4-E0C1-4313-BC58-F9618E5E3D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECEB4AF4-E0C1-4313-BC58-F9618E5E3D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECEB4AF4-E0C1-4313-BC58-F9618E5E3D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394062FF-7FF7-42D1-ADF5-0C61FF694AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394062FF-7FF7-42D1-ADF5-0C61FF694AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394062FF-7FF7-42D1-ADF5-0C61FF694AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394062FF-7FF7-42D1-ADF5-0C61FF694AA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F21887FF-73E9-4445-A44A-288BB010B93A} = {59769F96-0651-4EA3-A5DD-786AF402506B}
 		{ECEB4AF4-E0C1-4313-BC58-F9618E5E3D3C} = {59769F96-0651-4EA3-A5DD-786AF402506B}
+		{394062FF-7FF7-42D1-ADF5-0C61FF694AA4} = {59769F96-0651-4EA3-A5DD-786AF402506B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8AA6A4CA-F2C0-4FD2-A9E6-17D116D77500}

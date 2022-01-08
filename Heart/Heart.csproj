@@ -4,21 +4,21 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
-	 <ItemGroup>
+  <ItemGroup>
     <None Include="Shaders/**" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
-   <ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj" />
   </ItemGroup>
 
-   <ItemGroup>
-     <None Update="Shaders\shader.frag">
-       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-     </None>
-     <None Update="Shaders\shader.vert">
-       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-     </None>
-   </ItemGroup>
-  
-  </Project>
+  <ItemGroup>
+    <None Update="Shaders\shader.frag">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Shaders\shader.vert">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
