@@ -102,7 +102,7 @@ namespace ShaserFractal
             FPS++;
             if (FremeTime >= 1.0f)
             {
-                Title = $"PracticeOpenTK - FPS {FPS}";
+                Title = $"Heart - OpenTK - FPS {FPS}";
                 FremeTime = 0;
                 FPS = 0;
             }
